@@ -84,20 +84,20 @@ class OrderCard extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        Text.rich(
-                          TextSpan(
-                            text: "Tổng tiền \n" ,
-                            style: TextStyle(
-                                fontFamily: "Muli-Bold",
-                                color: kPrimaryMediumColor
-                            ),
-                            children: [
-                              TextSpan(
-                                  text: "\$${cart.totalValue.toStringAsFixed(3)}",  // dang o day
-                                  style: TextStyle(fontSize: 14,color: Colors.black)
-                              ),
-                            ],
-                          ),
+                        Text(
+                          'Tổng tiền',
+                          style: TextStyle(fontSize: 13,
+                          fontFamily: "Muli-Bold",
+                          color: kPrimaryColor),
+                        ),
+                        SizedBox(
+                          width: 50,
+                        ),
+                        Text(
+                          "\$${orderItem.cart?.totalValue.abs().toStringAsFixed(3)}",
+                          style: TextStyle(
+                              fontSize: 13,
+                              color: Colors.black),
                         ),
                       ],                     ),
                   ],
