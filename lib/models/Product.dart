@@ -41,7 +41,7 @@ List<Product> demoProducts = [
         Colors.white,
       ],
       sizes: [1, 2],
-      title: "Sách Đen\nBộ Công Cụ Của Phụ Nữ Thành Đạt",
+      title: "Sách Đen\nBộ Công Cụ Của Phụ Nữ",
       price: 5400,
       description: description,
       rating: 4.8,
