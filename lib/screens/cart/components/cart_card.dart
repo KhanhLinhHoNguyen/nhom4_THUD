@@ -77,6 +77,10 @@ class _CartCardState extends State<CartCard> {
                       widget.cartItem.numOfItem.toString(),
                       //textAlign: TextAlign.left,
                     ),
+                    SizedBox(width: 40),
+                    Text(
+                      "Tập: ${widget.cartItem.size}",
+                    )
                     // Text(
                     //   "Size: ${widget.cartItem.size}",
                     // )
