@@ -69,7 +69,7 @@ class _ProductCardState extends State<ProductCard> {
                         ),
                         SizedBox(width: 40),
                         Text(
-                          "Kích thước: ${widget.cartItem.size}",
+                          "Tập: ${widget.cartItem.size}",
                           style: TextStyle(fontSize: 12),
                         )
                       ],
